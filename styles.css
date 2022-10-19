@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-around;
     background: #1B244A;
+    margin: 10px auto;
+    padding: 25px 30px;
+    max-width: 900px;
 }
 @font-face {
     font-family: cursed timer;
