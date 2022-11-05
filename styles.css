@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    margin: 10px auto;
+    padding: 25px 30px;
+    max-width: 900px;
+}
+@font-face {
+    font-family: cursed timer;
+    src: url('CursedTimerUlil-Aznm.ttf');
+   
+}
+h1 {
+    font-family: cursed timer;
+    font-size: 90px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 125px;
+    
+}
+button {
+    font-family: cursed timer;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-size: 18px;
+    background-color: #1B244A;
+}
+@font-face {
+    font-family: verdana-myfont;
+    src: url('verdana-bold.ttf');
+}
+h3 {
+    font-family: verdana-myfont;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 70px 0; 
+}
+.btn {
+    gap: 30px;
+    display: flex;
+}
